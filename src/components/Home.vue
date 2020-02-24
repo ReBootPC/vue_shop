@@ -40,18 +40,18 @@
     export default {
         name: "Home",
         data() {
-          return {
-              menulist: [],
-              iconObj: {
-                  '125': 'el-icon-s-custom',
-                  '103': 'el-icon-s-tools',
-                  '101': 'el-icon-s-goods',
-                  '102': 'el-icon-s-order',
-                  '145': 'el-icon-s-data'
-              },
-              isCollapse: false,
-              activePath: ''
-          }
+            return {
+                menulist: [],
+                iconObj: {
+                    '125': 'el-icon-s-custom',
+                    '103': 'el-icon-s-tools',
+                    '101': 'el-icon-s-goods',
+                    '102': 'el-icon-s-order',
+                    '145': 'el-icon-s-data'
+                },
+                isCollapse: false,
+                activePath: ''
+            }
         },
         created() {
             this.getMenuList()
