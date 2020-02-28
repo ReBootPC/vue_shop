@@ -236,7 +236,6 @@
                 }
                 this.userlist = res.data.users
                 this.total = res.data.total
-                console.log(res)
             },
             handleSizeChange(newSize) {
                 this.queryInfo.pagesize = newSize

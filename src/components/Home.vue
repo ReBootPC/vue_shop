@@ -66,7 +66,6 @@
                const { data: res } = await this.$http.get('menus')
                 if (res.meta.status !== 200) return this.$message.error(res.meta.msg)
                 this.menulist = res.data
-                console.log(res)
             },
             toggleCollapse() {
                 //点击按钮，侧边栏的折叠或展开

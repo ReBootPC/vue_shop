@@ -194,7 +194,6 @@
                     return this.$message.error('获取角色列表失败')
                 }
                 this.rolelist = res.data
-                console.log(this.rolelist)
             },
             async removeRightById(role, rightId) {
                 const confirmResult = await this.$confirm(
