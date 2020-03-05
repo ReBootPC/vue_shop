@@ -38,7 +38,7 @@
                                         </i>
                                     </el-col>
                                     <el-col :span="18">
-                                        <el-tag v-for="(item3, i3) in item2.children" :key="item3.id" type="warning" closable @close="removeRightById(scope.row, item3.id)">
+                                        <el-tag v-for="item3 in item2.children" :key="item3.id" type="warning" closable @close="removeRightById(scope.row, item3.id)">
                                             {{item3.authName}}
                                         </el-tag>
                                     </el-col>
